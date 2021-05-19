@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sqrt finder</title>
+
+    <script src="scripts.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<header>
+    <div><h1>Вычисление квадратного корня</h1></div>
+    <nav>
+        <a class="dropdown">GitHub</a> |
+        <a>PSU</a> |
+        <a>mail@mail.ru</a> |
+        <div class="dropdown">
+            <button class="dropbtn">Выбрать язык »</button>
+            <div class="dropdown-content">
+                <a href="#">Russian</a>
+                <a href="#">English</a>
+                <a href="#">Australia</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="after-header">
+    <div class="input">
+        <p> Введие ваше значение</p>
+        <input class="input-text" type="text" id="input">
+    </div>
+
+
+    <div class="size-div">
+        <p>Знаков после запятой: <span id="accuracy"> </span></p>
+        <input type="range" min="0" max="11" step="1" value="3" id="size" oninput="accuracySize()">
+    </div>
+
+    <script>
+        document.getElementById("accuracy").innerHTML = document.getElementById("size").value;
+    </script>
+
+
+    <div class="button-div">
+        <input type="button" class="button" value="Вычислить квадратный корень" onclick="getResult()">
+    </div>
+
+
+    <div class="result-div">
+        <p> Результат</p>
+        <input class="input-text" type="text" id="sqrtResult">
+    </div>
+
+</div>
+
+</body>
+</html>
