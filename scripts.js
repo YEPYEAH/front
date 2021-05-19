@@ -7,6 +7,13 @@ function accuracySize() {
     document.getElementById("accuracy").innerHTML = size;
 }
 
+function getResult() {
+    let accuracy = document.getElementById("size").value;
+    let number = document.getElementById("input").value;
+    let result = calculate(accuracy, number);
+    document.getElementById("sqrtResult").value = result;
+}
+
 //Эта функция реализует вычислиение квадратного корня из заданного числа с заданной точностью
 function calculate(number, accuracy) {
     let abs = Math.abs(number);
@@ -18,12 +25,5 @@ function calculate(number, accuracy) {
         result += "i";
     }
     return result;
-}
-
-function getResult() {
-    let accuracy = document.getElementById("size").value;
-    let number = document.getElementById("input").value;
-    let result = calculate(accuracy, number);
-    document.getElementById("sqrtResult").value = result;
 }
 
