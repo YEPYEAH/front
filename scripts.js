@@ -7,7 +7,6 @@ function accuracySize() {
     document.getElementById("accuracy").innerHTML = size;
 }
 
-
 //Эта функция реализует вычислиение квадратного корня из заданного числа с заданной точностью
 function calculate(number, accuracy) {
 	number = parseFloat(number.replace(",", "."));
@@ -24,8 +23,6 @@ function calculate(number, accuracy) {
     }
     return result;
 }
-
-
 
 function getResult() {
     let accuracy = document.getElementById("size").value;

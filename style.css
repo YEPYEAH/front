@@ -1,3 +1,5 @@
+/*My styles*/
+
 /* Disable undelining links*/
 a,a:hover, a:visited{
     border:none;
@@ -5,6 +7,58 @@ a,a:hover, a:visited{
     text-decoration:none;
     color:inherit;
     -webkit-tap-highlight-color: white;
+}
+
+.after-header {
+    margin: 10px;
+    border: 1px #2c3e50 solid;
+    width: 380px;
+}
+
+.button {
+    width: 310px;
+    margin-top: 10px;
+    background-color: #2c3e50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 32px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.input {
+    margin: 10px;
+}
+
+.input p {
+    margin-bottom: 10px;
+}
+
+.size-div {
+    margin: 10px;
+}
+.size-div p {
+    margin-bottom: 10px;
+}
+
+.button-div {
+    margin: 10px;
+}
+
+.result-div {
+    margin: 10px;
+}
+
+.result-div p {
+    margin-bottom: 10px;
+}
+
+.input-text {
+    width: 295px;
+
 }
 
 /* Style The Dropdown Button */
@@ -108,53 +162,6 @@ a,a:hover, a:visited{
 
     text-align: center;
     cursor: pointer;
-}
-
-
-/*My styles*/
-
-.after-header {
-    margin: 10px;
-    border: 1px #2c3e50 solid;
-}
-
-.button {
-    margin-top: 10px;
-    background-color: #2c3e50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.input {
-    margin: 10px;
-}
-
-.input p {
-    margin-bottom: 10px;
-}
-
-.size-div {
-    margin: 10px;
-}
-.size-div p {
-    margin-bottom: 10px;
-}
-
-.button-div {
-    margin: 10px;
-}
-
-.result-div {
-    margin: 10px;
-}
-
-.result-div p {
-    margin-bottom: 10px;
 }
 
 /*Header*/
